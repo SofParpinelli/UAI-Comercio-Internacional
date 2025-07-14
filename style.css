@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fceeff;
+  color: #333;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #7f4ca5;
+}
+
+button {
+  background-color: #eab0ff;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cuatrimestre {
+  margin-bottom: 40px;
+}
+
+.cuatrimestre h2 {
+  color: #a24dc2;
+  margin-bottom: 10px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.materia {
+  padding: 10px;
+  border-radius: 5px;
+  width: 250px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+/* Estados */
+.bloqueada {
+  background-color: #e8e8e8;
+  color: #999;
+  border: 2px solid #ccc;
+}
+
+.habilitada {
+  background-color: #f9d7ff;
+  color: #5c2c77;
+  border: 2px solid #d59aff;
+}
+
+.aprobada {
+  background-color: #cfaaff;
+  color: #3c125f;
+  border: 2px solid #974fd2;
+  text-decoration: line-through;
+}
