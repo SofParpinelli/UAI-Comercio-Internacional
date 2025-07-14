@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #fceeff;
+  background-color: #fff0f5;
   color: #333;
   margin: 20px;
 }
@@ -11,56 +11,64 @@ h1 {
 }
 
 button {
-  background-color: #eab0ff;
+  display: block;
+  margin: 0 auto 20px auto;
+  background-color: #e6b3ff;
   border: none;
   padding: 10px 20px;
-  margin-bottom: 20px;
   font-size: 16px;
   border-radius: 8px;
   cursor: pointer;
+  color: #4b1f66;
+  font-weight: bold;
 }
 
 .cuatrimestre {
   margin-bottom: 40px;
+  border: 2px solid #dda0dd;
+  border-radius: 8px;
+  background-color: #f9ebff;
+  padding: 15px;
 }
 
 .cuatrimestre h2 {
   color: #a24dc2;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .grid {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 10px;
 }
 
 .materia {
-  padding: 10px;
-  border-radius: 5px;
-  width: 250px;
+  padding: 12px;
+  border-radius: 6px;
   text-align: center;
   cursor: pointer;
-  transition: 0.3s;
   font-weight: bold;
+  border: 2px solid transparent;
+  transition: all 0.2s;
 }
 
 /* Estados */
 .bloqueada {
-  background-color: #e8e8e8;
+  background-color: #e6e6e6;
   color: #999;
-  border: 2px solid #ccc;
+  border-color: #ccc;
 }
 
 .habilitada {
-  background-color: #f9d7ff;
+  background-color: #fbd0ff;
   color: #5c2c77;
-  border: 2px solid #d59aff;
+  border-color: #e8a5ff;
 }
 
 .aprobada {
-  background-color: #cfaaff;
+  background-color: #d6a8ff;
   color: #3c125f;
-  border: 2px solid #974fd2;
+  border-color: #974fd2;
   text-decoration: line-through;
 }
